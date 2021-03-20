@@ -1,0 +1,69 @@
+@import '../../styles/variables.scss';
+
+#Sobre {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.4rem;
+
+  > section.left {
+    > img {
+      width: 28rem;
+    }
+  }
+
+  > section.right {
+    > h1 {
+      color: var(--color-primary);
+      margin-bottom: 2rem;
+      font-size: 2.8rem;
+    }
+
+    > span {
+      color: var(--color-dark);
+    }
+
+    > ul {
+      margin-top: 2rem;
+      > li {
+        display: flex;
+        align-items: center; 
+        color: var(--color-dark);
+        > div.icon_container {
+          background-color: var(--color-primary);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          color: #FFFFFF;
+          font-size: 1.2rem;
+          margin-right: 0.8rem;
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 1.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: $breakpoint-smartphone) {
+  #Sobre {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    > section.left {
+      display: none;
+    }
+    > section.right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+}

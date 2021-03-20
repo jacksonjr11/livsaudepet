@@ -1,0 +1,94 @@
+@import '../../styles/variables.scss';
+
+#Home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.4rem;
+  width: 100%;
+  height: 100vh;
+  padding: 30vh 0 2rem 0;
+
+  > div.aboutleft {
+    .title {
+      color: var(--color-primary);
+      line-height: 70px;
+    }
+
+    .slogan {
+      font-weight: 300;
+      font-size: 1.2rem;
+      color: var(--color-dark);
+    }
+
+    .actions {
+      margin-top: 3rem;
+    }
+  }
+
+  > div.aboutright {
+    .network {
+      width: 35rem;
+    }
+  }
+}
+
+@media(max-width: $breakpoint-tablet) {
+  #Home {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > div.aboutright {
+      .network {
+        width: 32rem;
+      }
+    }
+  }
+}
+
+@media(max-width: $breakpoint-tablet-small) {
+  #Home {
+    > div.aboutright {
+      .network {
+        width: 28rem;
+      }
+    }
+  }
+}
+
+@media(max-width: $breakpoint-smartphone) {
+  #Home {
+    > div.aboutleft {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .title {
+        font-size: 2.8rem;
+      }
+
+      button {
+        width: 80%;
+      }
+  
+      .slogan {
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: var(--color-dark);
+        text-align: center;
+      }
+  
+      .actions {
+        margin-top: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  
+    > div.aboutright {
+      display: none;
+    }
+  }
+}

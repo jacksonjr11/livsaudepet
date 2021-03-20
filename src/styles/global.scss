@@ -1,0 +1,71 @@
+@import '@brainhubeu/react-carousel/lib/style.css';
+@import './variables.scss';
+
+//#4294FF
+
+:root {
+  --color-primary: #8CC5F9;
+  --color-secondary: #878ABC;
+  --color-white: #F6F6F6;
+  --color-dark: #4F5665;
+  --color-whatsapp: #44cc00;
+
+  --dimension-padding-page: 0 8vw;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+}
+
+*, ul {
+  list-style: none;
+}
+
+html, #root, body {
+  min-height: 100vh;
+}
+
+*, body, input, button {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-size: 3.1rem;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  height: 50px;
+  border-radius: 10px;
+  min-width: 180px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 16px 16px rgba($color: #000, $alpha: 0.1);
+  transition: background 0.2s;
+
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+}
+
+@media(max-width: $breakpoint-wsmall) {
+  :root {
+    --dimension-padding-page: 0 2vw;
+  }
+  html {
+    font-size: 87.5%;
+  }
+}

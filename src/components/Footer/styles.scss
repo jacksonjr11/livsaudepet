@@ -1,0 +1,67 @@
+@import '../../styles/variables.scss';
+
+#Page_footer {
+  padding: 3rem 8vw;
+  width: 100%;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: flex-end;
+
+  > ul {
+    > h2{
+      color: #FFFFFF;
+      margin-bottom: 1.4rem;
+    }
+
+    &:not(:last-child) {
+      margin-right: 2.8rem;
+    }
+    > li {
+      color: #FFFFFF;
+      font-size: 1rem;
+      font-weight: 300;
+      cursor: pointer;
+      > a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      &:hover {
+        text-decoration: underline;
+        transform: scale(1.2);
+      }
+      &:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+}
+
+@media(max-width: $breakpoint-smartphone){
+  #Page_footer {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  
+    > ul {
+
+      &:last-child {
+        li:last-child {
+          margin-bottom: 6rem;
+        }
+      }
+  
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 2.8rem;
+      }
+      > li {
+        color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 300;
+        &:not(:last-child) {
+          margin-bottom: 0.8rem;
+        }
+      }
+    }
+  }
+}

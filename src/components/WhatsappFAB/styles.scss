@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+#Whatsapp_fab {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--color-whatsapp);
+  position: fixed;
+  left: 8vw;
+  bottom: 2.4rem;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 12px rgba($color: #000000, $alpha: 0.15);
+  transition: box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    box-shadow: 0 0.5rem 1.2rem rgba($color: #000000, $alpha: 0.24);
+  }
+
+  > img {
+    height: 2rem;
+  }
+}
+
+@media(max-width: $breakpoint-wsmall){
+  #Whatsapp_fab {
+    left: 2vw;
+  }
+}
