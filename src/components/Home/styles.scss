@@ -27,6 +27,7 @@
 
   > div.aboutright {
     .network {
+      border-radius: 10px;
       width: 35rem;
     }
   }
@@ -40,6 +41,7 @@
     justify-content: center;
     > div.aboutright {
       .network {
+        border-radius: 10px;
         width: 32rem;
       }
     }
@@ -50,6 +52,7 @@
   #Home {
     > div.aboutright {
       .network {
+        border-radius: 10px;
         width: 28rem;
       }
     }

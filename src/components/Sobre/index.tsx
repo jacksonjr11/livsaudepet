@@ -11,10 +11,11 @@ const Sobre: React.FC = () => {
         <img src={aboutImg} alt="PC" />
       </section>
       <section className="right">
-        <h1>Prestamos serviço de qualidade</h1>
+        <h1>Sobre</h1>
         <span>
-          Nossos serviços contam com o que há de melhor na tecnologia para
-          prover-lhe uma rede de qualidade, com um preço justo
+        Somos uma startup voltada para a prestação de Serviço à Pets em domicílio,
+        nosso aplicativo tem o objetivo de conectar profissionais de atendimento e 
+        prestadores de serviços aos donos de animais de estimação. Nossos serviços:
         </span>
         <ul>
           {vantagens.map((item, index) => (

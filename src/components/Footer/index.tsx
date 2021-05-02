@@ -17,12 +17,12 @@ const Footer: React.FC = () => {
           </li>
         ))}
       </ul>
-      <ul>
+      {/* <ul>
         <h2>Cobertura</h2>
         {cobertura.map((local, index) => (
           <li key={index}>{local.local}</li>
         ))}
-      </ul>
+      </ul> */}
       <ul>
         <h2>Funcionamento</h2>
         {horarios.map((horario, index) => (

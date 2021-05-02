@@ -1,7 +1,7 @@
 @import './variables.scss';
 
 :root {
-  --color-primary: #8CC5F9;
+  --color-primary: #5dd693;
   --color-secondary: #878ABC;
   --color-white: #F6F6F6;
   --color-dark: #4F5665;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .button {
-  background-color: var(--color-primary);
+  background-color: #ccc;
   color: var(--color-white);
   height: 50px;
   border-radius: 10px;

@@ -20,7 +20,11 @@
     margin-bottom: 2rem;
 
     > .plan_item {
-      background-color: #fff;
+      // background-color: #fff;
+      background-image: url("https://i0.statig.com.br/bancodeimagens/9y/2b/1z/9y2b1zqbf41kzxer3ruwaxhg9.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12rem;
       display: flex;
       flex-direction: column;
       border-radius: 8px;
@@ -45,5 +49,162 @@
         font-weight: 600;
       }
     }
+
+    > .plan_item2 {
+      // background-color: #fff;
+      background-image: url("https://www.petlove.com.br/dicas/wp-content/uploads/2017/08/shutterstock_304211438.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 4px 4px 12px rgba($color: #000000, $alpha: 0.16);
+      > img {
+        height: 4.2rem;
+        margin-bottom: 0.8rem;
+      }
+
+      > strong {
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+        color: var(--color-dark);
+      }
+
+      > span {
+        color: var(--color-secondary);
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+
+    > .plan_item3 {
+      // background-color: #fff;
+      background-image: url("https://static1.patasdacasa.com.br/articles/8/23/98/@/10611-pode-dar-dipirona-para-gato-saiba-se-es-opengraph_1200-2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 4px 4px 12px rgba($color: #000000, $alpha: 0.16);
+      > img {
+        height: 4.2rem;
+        margin-bottom: 0.8rem;
+      }
+
+      > strong {
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+        color: var(--color-dark);
+      }
+
+      > span {
+        color: var(--color-secondary);
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+
+    > .plan_item4 {
+      // background-color: #fff;
+      background-image: url("https://i0.statig.com.br/bancodeimagens/cv/mw/lf/cvmwlfl809ttid4klceze7bgj.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 4px 4px 12px rgba($color: #000000, $alpha: 0.16);
+      > img {
+        height: 4.2rem;
+        margin-bottom: 0.8rem;
+      }
+
+      > strong {
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+        color: var(--color-dark);
+      }
+
+      > span {
+        color: var(--color-secondary);
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+
+    > .plan_item5 {
+      // background-color: #fff;
+      background-image: url("https://ibapcursos.com.br/wp-content/uploads/2020/08/exame-f%C3%ADsico-laborat%C3%B3rio-veterin%C3%A1rio-veterin%C3%A1rio-exames-laboratoriais-medicina-veterin%C3%A1ria-diagn%C3%B3stico-veterin%C3%A1rio-an%C3%A1lises-cl%C3%ADnicas-coleta-sangue-veterinaria.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 4px 4px 12px rgba($color: #000000, $alpha: 0.16);
+      > img {
+        height: 4.2rem;
+        margin-bottom: 0.8rem;
+      }
+
+      > strong {
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+        color: var(--color-dark);
+      }
+
+      > span {
+        color: var(--color-secondary);
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+
+    > .plan_item6 {
+      // background-color: #fff;
+      background-image: url("https://nfpet.com.br/blog/wp-content/uploads/2019/01/18-01-750x410.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 4px 4px 12px rgba($color: #000000, $alpha: 0.16);
+      > img {
+        height: 4.2rem;
+        margin-bottom: 0.8rem;
+      }
+
+      > strong {
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+        color: var(--color-dark);
+      }
+
+      > span {
+        color: var(--color-secondary);
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+
+
   }
 }

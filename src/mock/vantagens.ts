@@ -1,12 +1,19 @@
 export const vantagens = [
   {
-    title: "Banda larga de alta velocidade",
+    title: "Banho completo",
   },
   {
-    title: "Equipamentos de qualidade",
+    title: "Consulta médica especializada",
   },
-  { title: "Fibra óptica" },
+  { 
+    title: "Aplicar ou Introduzir medicação" },
   {
-    title: "Preços acessíves",
+    title: "Tosagem animal completa",
+  },
+  {
+    title: "Exames médicos",
+  },
+  {
+    title: "Produtos Diversos",
   },
 ];

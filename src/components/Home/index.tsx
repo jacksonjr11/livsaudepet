@@ -1,5 +1,5 @@
 import React from "react";
-import networkImg from "../../assets/vectors/network.svg";
+import networkImg from "../../assets/vectors/network.png";
 import "./styles.scss";
 
 const HomeSection: React.FC = () => {
@@ -14,8 +14,8 @@ const HomeSection: React.FC = () => {
     <section id="Home">
       <div className="aboutleft">
         <section>
-          <h1 className="title">Linkwan Telecom</h1>
-          <h3 className="slogan">Conectando você com o mundo.</h3>
+          <h1 className="title">Liv Saúde Pet</h1>
+          <h3 className="slogan">Seu Pet com mais saúde.</h3>
         </section>
         <div className="actions">
           <button onClick={handleMoveToContacts} className="button">
