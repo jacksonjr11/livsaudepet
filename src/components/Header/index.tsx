@@ -30,7 +30,7 @@ const Header: React.FC<IHeaderProps> = () => {
 
   const items = [
     { name: "Home", route: "/" },
-    { name: "Serviços", route: "/plans" },
+    { name: "Serviços", route: "/plans", id: "Planos" },
     { name: "Sobre", route: "/about" },
     { name: "Contatos", route: "/contact", id: "Page_footer" },
     // { name: "Cobertura", route: "/cover", id: "Page_footer" },
