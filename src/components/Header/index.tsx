@@ -35,11 +35,11 @@ const Header: React.FC<IHeaderProps> = () => {
     { name: "Contatos", route: "/contact", id: "Page_footer" },
     // { name: "Cobertura", route: "/cover", id: "Page_footer" },
     { name: "", route: "/tips", action: handleMoveToTips },
-    // {
-    //   name: "Central do assinante",
-    //   route: "/central",
-    //   action: handleOpenCentral,
-    // },
+    {
+      name: "",
+      route: "/central",
+      action: handleOpenCentral,
+    },
   ];
 
   const handleScrollToPage = React.useCallback((id: string) => {
