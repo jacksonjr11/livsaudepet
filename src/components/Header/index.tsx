@@ -30,16 +30,16 @@ const Header: React.FC<IHeaderProps> = () => {
 
   const items = [
     { name: "Home", route: "/" },
-    { name: "Planos", route: "/plans" },
+    { name: "Serviços", route: "/plans" },
     { name: "Sobre", route: "/about" },
     { name: "Contatos", route: "/contact", id: "Page_footer" },
     // { name: "Cobertura", route: "/cover", id: "Page_footer" },
-    { name: "Dicas", route: "/tips", action: handleMoveToTips },
-    {
-      name: "Central do assinante",
-      route: "/central",
-      action: handleOpenCentral,
-    },
+    { name: "Dicas", route: "/tips" },
+    // {
+    //   name: "Central do assinante",
+    //   route: "/central",
+    //   action: handleOpenCentral,
+    // },
   ];
 
   const handleScrollToPage = React.useCallback((id: string) => {
@@ -74,9 +74,9 @@ const Header: React.FC<IHeaderProps> = () => {
           {items.map((item, index) => (
             <li
               onClick={() =>
-                item.action
-                  ? item.action()
-                  : handleScrollToPage(item.id || item.name)
+                item
+                  ? item
+                  : handleScrollToPage(item || item)
               }
               key={index}
             >
