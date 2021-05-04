@@ -1,5 +1,5 @@
 export const config = {
-  // WHATSAPP_URL:
-  //   "",
-  // CENTRAL_URL: "",
+  WHATSAPP_URL:
+    "",
+  CENTRAL_URL: "",
 };
