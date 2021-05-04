@@ -34,7 +34,7 @@ const Header: React.FC<IHeaderProps> = () => {
     { name: "Sobre", route: "/about" },
     { name: "Contatos", route: "/contact", id: "Page_footer" },
     // { name: "Cobertura", route: "/cover", id: "Page_footer" },
-    { name: "Dicas", route: "/tips" },
+    { name: "", route: "/tips", action: handleMoveToTips },
     // {
     //   name: "Central do assinante",
     //   route: "/central",
@@ -74,9 +74,9 @@ const Header: React.FC<IHeaderProps> = () => {
           {items.map((item, index) => (
             <li
               onClick={() =>
-                item
-                  ? item
-                  : handleScrollToPage(item || item)
+                item.action
+                  ? item.action()
+                  : handleScrollToPage(item.id || item.name)
               }
               key={index}
             >
