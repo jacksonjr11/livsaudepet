@@ -1,5 +1,4 @@
 import React from "react";
-import wifiImg from "../../assets/vectors/wifi.svg";
 import { banho } from "../../mock/banho";
 import { tosa } from "../../mock/tosa";
 import "./styles.scss";

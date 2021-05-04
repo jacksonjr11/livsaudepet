@@ -1,5 +1,4 @@
 import React from "react";
-import { cobertura } from "../../mock/cobertura";
 import { contatos } from "../../mock/contatos";
 import { horarios } from "../../mock/horarios";
 import "./styles.scss";
