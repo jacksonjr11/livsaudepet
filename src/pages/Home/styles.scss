@@ -3,3 +3,38 @@
   padding: var(--dimension-padding-page);
   position: relative;
 }
+#app {
+ >div.container-icon{ 
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 3rem;
+   width: 100%;
+   bottom: 0;
+   background-color: var(--color-dark);
+  > ul {
+    display: flex;
+    > li {
+      display: flex;
+      align-items: center; 
+      color: var(--color-dark);
+      > div.icon_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 330px;
+        height: 330px;
+        border-radius: 50%;
+        color: var(--color-primary);
+        font-size: 1.5rem;
+        margin-right: 0.8rem;
+
+        >.icone {
+          margin-left: 1rem;
+        }
+      }
+    } 
+  }
+}
+}

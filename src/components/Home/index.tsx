@@ -1,7 +1,7 @@
 import React from "react";
 import networkImg from "../../assets/vectors/network.png";
 import "./styles.scss";
-import dogcat from "../../assets/vectors/dogcat.jpg"
+import dogcat from "../../assets/vectors/celldogcat.jpeg"
 
 const HomeSection: React.FC = () => {
   const handleMoveToContacts = React.useCallback(() => {
